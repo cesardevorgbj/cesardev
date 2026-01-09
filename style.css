@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b0b0e;
+    color: #f8f8f8;
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+    background: #000002;
+}
+
+.me {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #3f0ef1;
+
+    transition: 
+        transform 0.5s ease-in-out,
+        box-shadow 0.5s ease-in-out;
+}
+
+.python {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+}
+
+.me:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 20px rgba(140, 0, 255, 0.6);
+}
+
+.sobremim {
+    background: #000105;
+    padding: 18px;
+    margin: 15px 0;
+    border-radius: 8px;
+
+    transition: 
+        transform 0.5s ease-in-out,
+        box-shadow 0.5s ease-in-out;
+}
+
+section:has(.front):has(.back) {
+    display: flex;
+}
+
+.front,
+.back {
+    background-color: #000105;
+    margin: 15px 0;
+    border-radius: 8px;
+    padding: 11px;
+    flex: 0 0 45%;
+
+    transition: 
+        transform 0.5s ease-in-out,
+        box-shadow 0.5s ease-in-out;
+}
+
+.back {
+    margin-left: auto;
+}
+
+.front:hover,
+.back:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(140, 0, 255, 0.6);
+}
+
+
+
+
+.front:hover,
+.back:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(140, 0, 255, 0.6);
+}
+
+
+.sobremim:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(140, 0, 255, 0.6);
+}
+
+section {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    color: #3f0ef1;
+}
+
+.py-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.python {
+    width: 150px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.py {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 8px 0;
+}
+
+.projeto {
+    padding: 40px;
+    background-color: #000105;
+    border-radius: 10px;
+
+    transition: 
+        transform 0.5s ease-in-out,
+        box-shadow 0.5s ease-in-out;
+}
+
+.projeto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(140, 0, 255, 0.6);
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #0e0127, #3f0ef1);
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(140, 0, 255, 0.6);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    font-size: 14px;
+}
